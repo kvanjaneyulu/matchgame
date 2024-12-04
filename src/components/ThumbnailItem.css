@@ -1,0 +1,19 @@
+.thumbnail-item {
+  margin: 10px;
+}
+
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.thumbnail-button:hover .thumbnail-image {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}

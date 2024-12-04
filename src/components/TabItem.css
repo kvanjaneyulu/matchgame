@@ -1,0 +1,16 @@
+.tab-item {
+  margin: 0 10px;
+}
+
+.tab-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tab-button:hover,
+.tab-button.active-tab {
+  border-bottom: 2px solid #fec653;
+}
